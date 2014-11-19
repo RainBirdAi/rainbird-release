@@ -1,0 +1,36 @@
+{
+  "name": "rainbird-release",
+  "description": "Rainbird release tool",
+  "author": "Dom Davis <dom@rainbird.ai>",
+  "license": "ISC",
+  "main": "release.js",
+  "version": "0.0.0",
+  "bin" : {
+
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/RainBirdAi/rainbird-release",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RainBirdAi/rainbird-release.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RainBirdAi/rainbird-release/issues"
+  },
+  "dependencies": {
+    "node-getopt": "*",
+    "rimraf": "*",
+    "chalk": "*",
+    "async": "*",
+    "nodegit": "*"
+  },
+  "devDependencies": {
+    "jshint": "*",
+    "mocha": "*",
+    "expect.js": "*",
+    "docco": "*",
+    "istanbul": "*"
+  }
+}
