@@ -25,7 +25,7 @@ getopt = new Getopt([
     ['h', 'help', 'display this help text.']
 ]);
 
-getopt.setHelp("Usage: release [options]\n[[OPTIONS]]");
+getopt.setHelp("Usage: rbrelease [options]\n[[OPTIONS]]");
 getopt.bindHelp();
 
 var version = '0.0.0';
