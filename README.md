@@ -1,5 +1,7 @@
 # Rainbird Release
 
+[ ![Codeship Status for RainBirdAi/rainbird-release](https://codeship.com/projects/dd2f7800-53ae-0132-06f4-42f33c882bfd/status?branch=master)](https://codeship.com/projects/48991)
+
 A tool used to handle releasing from `master` to the `production` branch in git.
 The tool assumes a node.js style `package.json` and a file called
 `release-notes.md` in the root of the repository.
