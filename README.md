@@ -12,7 +12,7 @@ version number. All changes are then pushed to `origin`.
 # Installation
 
 ```bash
-npm install -g rainbird-linter
+npm install -g rainbird-release
 ```
 
 ## Usage
