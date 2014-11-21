@@ -1,3 +1,5 @@
-# Release Notes
+# Rainbird Release - Release Notes
 
-Empty set of release notes.
+## Release 0.1.0
+
+* [New] Initial release
