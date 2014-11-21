@@ -4,12 +4,14 @@
   "author": "Dom Davis <dom@rainbird.ai>",
   "license": "ISC",
   "main": "release.js",
-  "version": "0.0.0",
-  "bin" : {
-
+  "version": "0.0.1",
+  "preferGlobal": true,
+  "bin": {
+    "rbrelease": "./bin/rbrelease"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "rm -rf docs && docco *.js lib/*.js",
+    "test": "rblint -f ./linter.json"
   },
   "homepage": "https://github.com/RainBirdAi/rainbird-release",
   "repository": {
@@ -20,17 +22,15 @@
     "url": "https://github.com/RainBirdAi/rainbird-release/issues"
   },
   "dependencies": {
+    "async": "*",
     "node-getopt": "*",
     "rimraf": "*",
-    "chalk": "*",
-    "async": "*",
-    "nodegit": "*"
+    "editor": "*",
+    "randomstring": "*",
+    "chalk": "*"
   },
   "devDependencies": {
-    "jshint": "*",
-    "mocha": "*",
-    "expect.js": "*",
-    "docco": "*",
-    "istanbul": "*"
+    "rainbird-linter": "*",
+    "docco": "*"
   }
 }
