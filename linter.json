@@ -1,5 +1,5 @@
 {
-    "includeFiles": ["yolanda.js", "lib/", "test/"],
+    "includeFiles": ["release.js", "lib/", "test/"],
     "excludeFiles": [],
     "lintOnly": ["test/"]
 }

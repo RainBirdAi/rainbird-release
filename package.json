@@ -13,7 +13,7 @@
     "node" : "0.10.30"
   },
   "scripts": {
-    "pretest": "rm -rf docs && rm -rf coverage && docco *.js lib/**/*.js",
+    "pretest": "rm -rf docs && rm -rf coverage && docco *.js lib/*.js",
     "test": "rblint -f ./linter.json && istanbul cover _mocha -- -R spec test/*.test.js",
     "posttest": "istanbul report html"
   },
