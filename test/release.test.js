@@ -1,0 +1,1 @@
+describe('Command line tool, no tests', function() {});
