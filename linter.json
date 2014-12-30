@@ -1,4 +1,5 @@
 {
-    "includeFiles": ["release.js", "lib/"],
-    "excludeFiles": []
+    "includeFiles": ["release.js", "lib/", "test/"],
+    "excludeFiles": [],
+    "lintOnly": ["test/"]
 }

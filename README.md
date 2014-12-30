@@ -26,6 +26,16 @@ Usage: rbrelease [options]
   -h, --help         display this help text.
 ```
 
+# Release Notes
+
+## Release 0.2.0
+
+  * [Misc] Tidied up package structure and scripts
+
+## Release 0.1.0
+
+  * [New] Initial release
+
 # License
 
 Copyright (c) 2014, RainBird Technologies <follow@rainbird.ai>
