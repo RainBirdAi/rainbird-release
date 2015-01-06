@@ -28,13 +28,17 @@ Usage: rbrelease [options]
 
 # Release Notes
 
-## Release 0.2.0
+## Release 0.0.3
+
+  * [Misc] Lock down versions numbers of package dependencies
+
+## Release 0.0.2
 
   * [Misc] Tidied up package structure and scripts
 
-## Release 0.1.0
+## Release 0.0.1
 
-  * [New] Initial release
+  *  [New] Initial release
 
 # License
 
