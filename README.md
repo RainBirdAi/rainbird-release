@@ -28,6 +28,10 @@ Usage: rbrelease [options]
 
 # Release Notes
 
+## Release 0.0.4
+
+  * [Misc] Lock node to version 0.10.30
+
 ## Release 0.0.3
 
   * [Misc] Lock down versions numbers of package dependencies
